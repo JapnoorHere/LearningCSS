@@ -1,0 +1,33 @@
+button:hover{
+    background-color: black;
+    color: red;
+}
+
+button:active{
+    background-color: yellow;
+    color: blue;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    background-color: yellow;
+}
+
+h1:nth-of-type(2n){
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1::selection{
+    background-color: brown;
+}
+
+p::first-line{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+}
+
+h1::first-letter{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+}
