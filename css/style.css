@@ -3,13 +3,17 @@ h1{
     font-weight: normal;
     text-decoration: dotted overline;
     text-decoration-color: red;
+    letter-spacing: 10px;
 }
 h3{
-    color:orange;
-    background-color: yellow;
+    color:black;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;       
 }
 
 div{
+    
     color:blueviolet;
     
 }
@@ -26,12 +30,16 @@ h2{
     text-decoration: underline;
 }
 
-p{
+/* p{
     
     color : red;
     font-weight: bolder;
     text-decoration: double line-through;
     text-decoration-color: green;
-}
+} */
 
+p{
+    line-height: 2.5;
+    
+}
 
