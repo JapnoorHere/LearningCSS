@@ -1,0 +1,15 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+#logo{
+    color: #1b74e4;
+}
+
+div button{
+    background-color: aqua;
+}
+
+#search{
+    background-color: black;
+    color: white;
+}
