@@ -1,10 +1,39 @@
-h1{
+/* h1{
     display: inline;
-}
+} */
 
 img{
     height: 100px;
-    width: 50px;
-    display: block;
+    width: 80px;
     
+    /* transition: margin-left 1s ease-in 0s; */
+    transition-duration: 1s;
+    margin: 50px;
+    
+}
+
+#omen:hover{
+    transform:rotate(360deg);
+    /* transform: translate(100px); */
+    /* transform: scale(0.5); */
+    /* transition-duration: 1s; */
+
+}
+
+#reyna:hover{
+    /* transform:rotate(20deg); */
+    transform: scale(3);
+    /* transition-duration: 1s; */
+
+}
+
+#phoenix:hover{
+    transform:translate(100px);
+}
+#raze:hover{
+    transform:skew(50deg);
+}
+
+#chamber:hover{
+    transform:rotate(360deg)  scale(5) ;
 }
