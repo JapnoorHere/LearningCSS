@@ -5,10 +5,13 @@
 img{
     height: 100px;
     width: 80px;
-    
+    background: pink;
     /* transition: margin-left 1s ease-in 0s; */
     transition-duration: 1s;
     margin: 50px;
+    box-shadow: 2px 2px 8px black;
+    
+
     
 }
 

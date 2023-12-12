@@ -1,0 +1,27 @@
+#card{
+    
+    width: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: x-large;
+    box-shadow: 2px 2px 8px black;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+
+#card:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px black;
+}
+
+img{
+    border-radius: 10px 10px 0 0 ;  
+    background-color: pink;
+    width: 100%;
+
+}
+
+#desc{
+    padding: 0 0 0 10px
+}
+
