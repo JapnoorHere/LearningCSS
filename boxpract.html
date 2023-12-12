@@ -1,23 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/boxpract.css">
-</head>
-<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/boxpract.css">
+    </head>
+    <body>
 
-    <div>
+        <div>
+            The issue with your code is that the CSS style applied to the div element in your CSS file (boxpract.css) only specifies the width property (width: 100px;). As a result, the content inside the div exceeds the specified width, causing it to overflow.
 
-       kdsnfskjfnsjkfsjkfndkjfskdjfnskdfnskjdfkjsdfndkjskjdnfksdnfkjdnkjfnskjndfkjsnjkfnsjdknfsnfkjsnfkjdsnfjsknfjksndjfnjskdnfkjsdnfkjsdnfkjsdnfkjsdnfkjsdnfkjsndfjksndkjfnskjdnfkjsdnfskjdnfskjnfksnfskjdnfkjsdfnbr
-        fksdnflksdf
-        dfklsdfnsldkfnsdlkfnsldkfnsdlfnsdlfksdnlks'sd
-        lkadalkfd
-        sdfksdfm
-        dfklsdfmslkdfmsldkmfslfmslk 
+            To address this issue, you can add the overflow property to the CSS rule for the div to control how content that exceeds the specified width should be handled. For example, you can set it to overflow: hidden; to hide the overflow or overflow: scroll; to provide a scrollbar. Here's an updated version of your CSS:
+        </div>
 
-    </div>
-    
-</body>
-</html>
+        <div>
+            The issue with your code is that the CSS style applied to the div element in your CSS file (boxpract.css) only specifies the width property (width: 100px;). As a result, the content inside the div exceeds the specified width, causing it to overflow.
+
+            To address this issue, you can add the overflow property to the CSS rule for the div to control how content that exceeds the specified width should be handled. For example, you can set it to overflow: hidden; to hide the overflow or overflow: scroll; to provide a scrollbar. Here's an updated version of your CSS:
+        </div>
+        
+        <button>
+
+            Click here
+        </button>
+
+    </body>
+    </html>

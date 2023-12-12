@@ -1,4 +1,37 @@
 div{
-    height: 100px;
-    width: 100px;
+height: 100px;
+width:900px;
+/* border-width: 2px;
+border-style: solid;
+background-color: rgb(197, 146, 146);
+ */
+border: solid black 5px ;
+border-left-color: aqua ;
+border-right-color: red ;
+border-bottom-color: yellow;
+border-top-color: greenyellow;
+border-top-style: dotted;
+
+border-radius: 10px;
+
+padding-left: 10px
+
 }
+
+button{
+    padding: 15px;
+    width: 50%;
+    align-items: center;
+    border: none;
+    background-color: rgb(230, 141, 141);
+    color: white;
+    border-radius: 20px;
+
+}
+
+button:hover{
+    background-color: brown;
+
+}
+
+
