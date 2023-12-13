@@ -1,0 +1,52 @@
+#container{
+    margin: 10px auto;
+    border: 3px solid aqua;
+    background-color: black;
+    color: white;
+    
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+h1{
+
+}
+#container div{
+    width: 100px;
+    height: 100px;
+}
+
+div:nth-child(1){
+    background-color: blueviolet;
+}
+
+div:nth-child(2){
+    background-color: indigo;
+}
+
+div:nth-child(3){
+    background-color: blue;
+}
+
+div:nth-child(4){
+    background-color: green;
+}
+
+div:nth-child(5){
+    background-color: yellow;
+}
+
+div:nth-child(6){
+    background-color: orange;
+}
+
+div:nth-child(7){
+    background-color: red;
+}
+
+
+
+
