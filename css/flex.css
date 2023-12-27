@@ -1,0 +1,35 @@
+.container{
+    height: 100vh;
+    border: 2px solid black;
+    background-color: beige;
+    display: flex; /* by default row*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center; /* works when to remove space between items or for small screen*/    
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+#box1{
+    background-color: #f35220;
+    
+}
+
+#box2{
+    background-color: #82bd01;
+    /* align-self: start; */
+    /* does not work when container has algn-content property */
+}
+
+#box3{
+    background-color: #00a7f0;
+}
+
+#box4{
+    background-color: #ffbb02;
+}
